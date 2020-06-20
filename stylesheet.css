@@ -4,9 +4,110 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Arial";
 }
 
 a {
   text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color:rgba(255, 255, 255, 1.0);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 45px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(241, 242, 246, 1.0);
+  color: red;
+  text-decoration: underline;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.promotion {
+  padding: 100px 0 50px 0;
+  background-color: rgba(235, 59, 90, 1.0);
+  color: white;
+  text-align: center;
+}
+
+.promotion h1{
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.bg-graytrans {
+  background-color: rgba(75, 75, 75, 0.75);
+  color: white;
+}
+
+.bg-gray {
+  background-color: rgba(61, 61, 61, 0.75);
+  color: white;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-shop {
+  border: 1.5px solid #eee;
+  font-weight: bold;
 }

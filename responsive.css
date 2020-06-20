@@ -1,10 +1,24 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
 
-
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-    
+
+    /* CSS untuk menu di header */
+    .header-right {
+        display: none;
+    }
+
+    /* CSS untuk menu-icon */
+    .menu-icon {
+        display: block;
+    }
+
+    .promotion h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
 }
