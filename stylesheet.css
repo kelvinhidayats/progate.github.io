@@ -177,3 +177,38 @@ footer {
   overflow: hidden;
   font-size: 0.7em;
 }
+
+
+/* --------------bagian tambahan---------------- */
+
+.bagian-tambahan {
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading-tambahan {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.koleksi-list {
+  float: left;
+  width: 25%;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #b3aeb5;
+  background-color:gray;
+  height:40px;
+  padding-top:15px;
+}
+
+.text-contents a:hover {
+  background-color:black;
+}
