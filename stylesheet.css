@@ -25,7 +25,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color:rgba(255, 255, 255, 1.0);
+  background-color: rgba(255, 255, 255, 1.0);
   position: fixed;
   top: 0;
   z-index: 10;
@@ -77,7 +77,7 @@ header {
   text-align: center;
 }
 
-.promotion h1{
+.promotion h1 {
   font-size: 72px;
   font-weight: bold;
   margin-top: 5px;
@@ -111,43 +111,53 @@ header {
   border: 1.5px solid #eee;
   font-weight: bold;
 }
+
 /* --------------footer---------------- */
-footer{
+footer {
   background-color: #b3b3b3;
   margin: 0 auto;
 }
-.follow a{
+
+.follow a {
   display: block;
 }
+
 .flex-column {
   display: flex;
   flex-direction: row;
   /* border: 1px solid #fedede; */
 
 }
-.flex-column p{
+
+.flex-column p {
   font-size: 12px;
   color: white;
 }
+
 .flex-column a {
   text-decoration: none;
   color: white;
 }
+
 .flex-row {
   display: flex;
   flex-direction: column;
   padding: 10px;
   /* border: 1px solid #fedede; */
 }
-.row1{
+
+.row1 {
   flex-basis: 30%;
 
 }
-.row2{
+
+.row2 {
   flex-basis: 30%;
 
 }
-.row3, .row4{
+
+.row3,
+.row4 {
   flex-basis: 20%;
 }
 
@@ -166,4 +176,4 @@ footer{
   border-radius: 3px;
   overflow: hidden;
   font-size: 0.7em;
-    }
+}

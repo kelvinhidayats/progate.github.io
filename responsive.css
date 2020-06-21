@@ -1,7 +1,5 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
-
-}
+@media all and (max-width: 1000px) {}
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
@@ -21,24 +19,31 @@
         font-weight: bold;
         margin-top: 5px;
     }
-    .flex-column{
+
+    .flex-column {
         flex-direction: column;
     }
 
-    .row1 img,p{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    .row1 img,
+    p {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
-     .row3, .row4{
-    text-align: center;
+
+    .row3,
+    .row4 {
+        text-align: center;
     }
-    .follow a{
-        font-size: 10px; 
-      display: inline;
-      margin-right: 5px; 
+
+    .follow a {
+        font-size: 10px;
+        display: inline;
+        margin-right: 5px;
     }
-    .row3, .row4 h3{
+
+    .row3,
+    .row4 h3 {
         font-size: 12px;
     }
 }
