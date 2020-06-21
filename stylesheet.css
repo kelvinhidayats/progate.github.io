@@ -185,12 +185,17 @@ footer {
   padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
+  height: 100%;
 }
 
 .heading-tambahan {
   padding-top: 60px;
   padding-bottom: 30px;
   color: #5f5d60;
+}
+
+.koleksi{
+  margin: 10px 10px 10px 10px;
 }
 
 .koleksi-list {
